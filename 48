@@ -1,0 +1,8 @@
+def summa (1):
+    sum=0
+    while 1!=0:
+        sum+=1%10
+        1=1//10
+    return sum
+n=int(input())
+print(summa(n))

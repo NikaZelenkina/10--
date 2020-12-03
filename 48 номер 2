@@ -1,0 +1,10 @@
+def l (nenorm):
+    norm=0
+    while nenorm>0:
+        j nenorm % 10
+        nenorm=nenorm//10
+        norm=norm*10
+        norm=norm + j
+    return norm
+g = int(input())
+print(l(g))
